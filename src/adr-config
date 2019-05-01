@@ -5,3 +5,6 @@ basedir=$(cd -L $(dirname $0) >/dev/null 2>&1 && pwd -L)
 
 echo 'adr_bin_dir="'"${basedir}"'"'
 echo 'adr_template_dir="'"${basedir}"'"'
+
+prefix="ADR-"
+echo 'prefix="'"${prefix}"'"'
